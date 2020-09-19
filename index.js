@@ -24,6 +24,6 @@ function findBy(array, findFn){
       continue
     } else if (array[i] === findFn){
       return array[i]
-    } return
+    } return null
   }
 }
