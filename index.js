@@ -4,8 +4,8 @@ function breakOut(array, changeValue, stopValue) {
       array.splice(array.indexOf(array[i]), 1, changeValue)
     } else if (array[i] === stopValue) {
       break
-    } return array
-  }
+    }
+  } return array
 }
 
 function keepGoing(array, changeValue, skipValue) {
