@@ -2,8 +2,9 @@ function breakOut(array, changeValue, stopValue) {
   for (let i = 0; i < array.length; i++) {
     if (array[i] !== stopValue) {
       array.splice(array[i], 1, changeValue)
-    } return array
-  }
+    } else if {array[i] === stopValue) {
+      break
+  } return array
 }
 
 function keepGoing(array, changeValue, skipValue) {
