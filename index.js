@@ -9,7 +9,13 @@ function breakOut(array, changeValue, stopValue) {
 }
 
 function keepGoing(array, changeValue, skipValue) {
-
+  for (let i = 0; i < array.length; i++) {
+    if (array[i] !== skipValue) {
+      array.splice(array.indexOf(array[i]), 1, changeValue)
+    } else if (array[i] === skipValue) {
+      continue
+    }
+  } return array
 }
 
 function findBy(array, findFn){
