@@ -1,7 +1,7 @@
 function breakOut(array, changeValue, stopValue) {
   for (let i = 0; i < array.length; i++) {
     if (array[i] !== stopValue) {
-      array.splice(array[i], changeValue)
+      array.splice(array[i], 1, changeValue)
     } return array
   }
 }
