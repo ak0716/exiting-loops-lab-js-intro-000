@@ -22,6 +22,8 @@ function findBy(array, findFn){
   for (let i = 0; i < array.length; i++) {
     if (array[i] !== findFn) {
       continue
-    } else {return null}
-  }
+    } else {
+      return null
+    }
+  } return array
 }
